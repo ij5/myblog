@@ -160,7 +160,7 @@ a {
       margin-top: $topSpacing;
       box-sizing: border-box;
       padding: 0 4rem;
-      position: fixed;
+      // position: fixed;
       @media all and (max-width: $fullPageWidth) {
         position: initial;
         flex-direction: row;
