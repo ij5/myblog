@@ -11,9 +11,7 @@ const config: QuartzConfig = {
     pageTitle: "이이재희",
     enableSPA: true,
     enablePopovers: false,
-    analytics: {
-      provider: "plausible",
-    },
+    analytics: null,
     locale: "ko-KR",
     baseUrl: "ij5.github.io/myblog",
     ignorePatterns: ["private", "templates", ".obsidian"],
